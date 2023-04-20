@@ -119,7 +119,7 @@ public class FileManagement {
                     try {
                         int count = this.count(item, word); //class
                         if(count > 0) {
-//                            System.out.println(item.getName());
+//                            System.out.println(item.getName());//
                             list.add(item.getName());
                         }else{
                             System.out.println("File not found!");
